@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+
+    font-size: 100%;
+    background: linear-gradient(#151E27,#808183 );
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Ruwudu', serif;
+    color: #05C7F2;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    margin-top: 0.4px solid color(#05C7F2);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #05C7F2;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F7F9F8;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #05C7F2;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #151E27;
+    border-radius: 20px;
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #151E27;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color:#05c7f2b3 ;
+} 
+
+.conteudo-principal-imagem {
+    height: 360px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #05C7F2;
+    padding-top: 48px;
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Ruwudu', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #05C7F2;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0, auto;
+    align-items: center;
+}
