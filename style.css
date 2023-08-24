@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 *{
     margin: 0;
@@ -32,7 +32,7 @@ body {
 }
 
 .cabecalho-menu-item {
-    font-family: 'Ruwudu', serif;
+    font-family: 'Kaushan Script', cursive;
     color: #05C7F2;
     font-weight: 500;
     font-size: 18px;
@@ -57,14 +57,14 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-    font-family: 'Ruwudu', serif;
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 64px;
     color: #05C7F2;
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-family: 'Ruwudu', serif;
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24px;
     color: #F7F9F8;
@@ -77,7 +77,7 @@ body {
     border: none;
     box-shadow: 4px 5px 4px #151E27;
     border-radius: 20px;
-    font-family: 'Ruwudu', serif;
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24px;
     color: #151E27;
@@ -102,25 +102,25 @@ body {
 .conteudo-secundario-titulo {
     border-top: 0.4px solid #05C7F2;
     padding-top: 48px;
-    font-family: 'Ruwudu', serif;
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24px;
 }
 
 .conteudo-secundario-paragrafo {
-    font-family: 'Ruwudu', serif;
     font-weight: 400;
     font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .rodape {
     padding: 32px;
     border-top: 0.4px solid #05C7F2;
+    
 }
 
 .rodape-imagem {
-    height: 48px;
-    display: block;
+    height: 30px;
     margin: 0, auto;
-    align-items: center;
+    font-family: 'Kaushan Script', cursive;
 }
