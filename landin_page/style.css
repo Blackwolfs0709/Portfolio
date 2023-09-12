@@ -10,7 +10,7 @@
 body {
 
     font-size: 100%;
-    background: linear-gradient(#151E27,#808183 );
+    background: #000000;
 }
 
 .cabecalho {
@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 50px;
+    height: 100px;
 }
 
 .cabecalho-menu {
@@ -33,7 +33,7 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Kaushan Script', cursive;
-    color: #05C7F2;
+    color: #5CE1E6;
     font-weight: 500;
     font-size: 18px;
 }
@@ -114,13 +114,13 @@ body {
 }
 
 .rodape {
-    padding: 32px;
+    padding: 30px;
     border-top: 0.4px solid #05C7F2;
     
 }
 
 .rodape-imagem {
-    height: 30px;
+    height: 70px;
     margin: 0, auto;
-    font-family: 'Kaushan Script', cursive;
+    display: inline-block;
 }
